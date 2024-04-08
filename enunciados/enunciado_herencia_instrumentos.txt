@@ -1,7 +1,10 @@
 Instrumento (clase padre) 
 	atributos--> nombre, tipo, precio, marca
-	metodos --> afinar () --> aleatorio 1-10 si >8 no estará bien afinado "Instrumento <nombre> [no] afinado"
-		--> tocar() --> Si instrumento afinado --> "El instrumento <nombre> está tocando correctamente" si no afinado "El instrumento <nombre> esta sonando mal"
+	metodos --> 
+		+ afinar () --> aleatorio 1-10 si >8 no estará bien afinado 
+		"Instrumento <nombre> [no] afinado"
+		+ tocar() --> Si instrumento afinado --> "El instrumento <nombre> está tocando correctamente" 
+			si no afinado "El instrumento <nombre> esta sonando mal"
 
 Clase Guitarra (Instrumento) 
 	atributos --> numCuerdas, material
@@ -28,5 +31,7 @@ Creación de objetos:
 
 Meter todos los instrumentos dentro de un array
 
-Funcion para iniciarConcierto() --> Afinar todos los instrumentos --> Ponemos a los instrumentos a Tocar [Cuando el intrumeto sea la bateria se aporrear()]
+Funcion para iniciarConcierto() a partir del array
+	--> Afinar todos los instrumentos 
+	--> Ponemos a los instrumentos a Tocar [Cuando el intrumeto sea la bateria se aporrear()]
 
