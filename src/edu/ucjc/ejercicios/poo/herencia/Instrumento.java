@@ -70,8 +70,19 @@ public class Instrumento {
 		System.out.println("El instrumento "+ nombre +
 				" está  " + (this.afinado?"sonando bien":"tocando mal") );
 		
+		metodo1(4);
+	}
+	
+	public void metodo1(int numero) {
+		metodo1(numero,"");
+	}
+	
+	public void metodo1(int numero,String nombre) {
 		
 	}
 	
+	public void metodo1(String numero) {
+		
+	}
 	
 }
