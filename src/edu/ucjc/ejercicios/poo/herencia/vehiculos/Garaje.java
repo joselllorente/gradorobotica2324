@@ -34,9 +34,17 @@ public class Garaje {
 	
 	public void aparcar(Vehiculo [] vehiculos) {
 		for (Vehiculo vehiculo : vehiculos) {
+			
+//			if (vehiculo instanceof Moto) {
+//				Moto moto1 = (Moto)vehiculo;
+//				moto1.hacerCaballito();
+//			}
+			
 			if (vehiculo instanceof VehiculosMotorizados) {
 				VehiculosMotorizados vm = (VehiculosMotorizados)vehiculo;
-				System.out.println("Aparcando vehiculo con matricula "+vm.getMatricula());
+				//System.out.println("Aparcando vehiculo con matricula "+vm.getMatricula());
+				
+				
 			}else {
 				Bicicleta bici = (Bicicleta)vehiculo;
 				System.out.println("Aparcando bici"+bici.getMarca());
@@ -48,6 +56,7 @@ public class Garaje {
 						System.out.println("Aparcada la bici "+bici.getMarca() + 
 								"con "+bici.getNumMarchas() + " marchas ");
 						hayPlazasLibres=true;
+						break;
 					}
 				}
 				if(!hayPlazasLibres) {

@@ -44,7 +44,6 @@ public class Coche extends VehiculosMotorizados {
 	@Override
 	public void frenar() {
 		System.out.println("El coche "+this.getMatricula() + " esta acelerando");
-		
 	}
 	
 	

@@ -12,10 +12,11 @@ public class UtilsCiudad {
 		
 		Bicicleta bici1 = new Bicicleta("marcaBici1","modeloBici1",2020);
 		Bicicleta bici2 = new Bicicleta("marcaBici2","modeloBici2",2022);
+		Bicicleta bici3 = new Bicicleta("marcaBici3","modeloBici3",2019);
 		
-		System.out.println(moto2);
+		//System.out.println(moto2);
 		
-		Vehiculo[] vehiculos = {coche1, coche2,coche3,moto1,moto2,bici1,bici2};
+		Vehiculo[] vehiculos = {coche1, coche2,coche3,moto1,moto2,bici1,bici2,bici3};
 		
 		return vehiculos;
 	}

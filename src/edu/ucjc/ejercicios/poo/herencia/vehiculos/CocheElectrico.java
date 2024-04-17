@@ -26,6 +26,11 @@ public final class CocheElectrico extends Coche {
 	
 	@Override
 	public void arrancar () {
-		System.out.println("El coche "+this.getMatricula() + " esta arrancando pulsando el botón");
+		System.out.println("El coche electrico"+this.getMatricula() + " esta arrancando pulsando el botón");
 	}
 }
+
+
+
+
+
