@@ -11,7 +11,10 @@ public class TestInterfaces {
 		
 		TestInterfaces ti = new TestInterfaces();
 		ti.insertar(objetos);
+		
+		ti.fichar((Empleado2)empleado);
 	}
+	
 	
 	public void insertar (Insertable  objeto) {
 		System.out.println("Insertando objeto");

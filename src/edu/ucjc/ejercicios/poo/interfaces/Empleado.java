@@ -1,6 +1,6 @@
 package edu.ucjc.ejercicios.poo.interfaces;
 
-public class Empleado implements Insertable, Empleable {
+public class Empleado implements Updatable, Empleable {
 	private int id;
 	private int antiguedad;
 		
@@ -39,6 +39,13 @@ public class Empleado implements Insertable, Empleable {
 
 	public void setAntiguedad(int antiguedad) {
 		this.antiguedad = antiguedad;
+	}
+
+
+	@Override
+	public void update() {
+		System.out.println("Empleado actualizado");
+		
 	}
 
 	
